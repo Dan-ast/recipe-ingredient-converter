@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <main className="conteiner">
+      <main className="container">
         <h1>Recipe Ingredient Converter</h1>
         <form>
           <div>
