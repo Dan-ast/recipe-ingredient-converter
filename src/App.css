@@ -64,3 +64,15 @@ button {
 button:hover {
   background-color: var(--btn-hover-color);
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid var(--btn-main-color);
+  display: flex;
+  justify-content: space-between;
+}
