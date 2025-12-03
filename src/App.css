@@ -16,6 +16,7 @@
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -75,4 +76,28 @@ li {
   border-bottom: 1px solid var(--btn-main-color);
   display: flex;
   justify-content: space-between;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.85;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+footer:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+footer a {
+  color: var(--btn-second-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--btn-hover-color);
+  text-decoration: underline;
 }

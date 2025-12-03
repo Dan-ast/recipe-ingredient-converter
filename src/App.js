@@ -96,6 +96,15 @@ function App() {
           ))}
         </ul>
       </main>
+
+      <footer>
+        This project was coded by {" "}
+            <a href="https://github.com/Dan-ast" target="_blank">Anastasiia Dekret</a> {" "}
+             and is {" "}
+            <a href="https://github.com/Dan-ast/recipe-ingredient-converter" target="_blank">open-sourced on Github</a>
+            {" "} and hosted {" "}
+            <a href="https://recipe-ingredient-converter.netlify.app/" target="_blank">on Netlify</a>.
+      </footer>
     </div>
   );
 }
